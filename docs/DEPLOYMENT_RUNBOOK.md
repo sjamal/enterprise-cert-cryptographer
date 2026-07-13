@@ -21,7 +21,15 @@ To deploy standard X.509 assets to Java engines (IBM WebSphere, OpenLiberty) or 
 bash scripts/format_converter.sh "sec-prd-tor-caddyproxy"
 ```
 
-## 4. Format Verification Procedures
+## 4. Automated Artifact Verification
+To validate format transformation validations locally or within build loops, execute the verification script below:
+
+```bash
+# Execute local artifact packaging test checking validation logic
+bash scripts/test_keystore_generation.sh
+```
+
+## 5. Format Verification Procedures
 Confirm formatting consistency before staging assets to application target systems:
 
 ```bash
