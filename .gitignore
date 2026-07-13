@@ -1,0 +1,19 @@
+# ==============================================================================
+# Gitignore Profile: High Security Cryptographic Protections
+# ==============================================================================
+
+# CRITICAL: Prevent raw cryptographic artifacts from ever hitting version control
+*.key
+*.pem
+*.crt
+*.csr
+*.p12
+*.pfx
+*.jks
+*.kdb
+*.sth
+*.db
+
+# Temporary formatting and distribution dump zones
+/dist/
+/tmp/
