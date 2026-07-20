@@ -41,3 +41,13 @@ To run format transformation validations locally or within build loops, execute 
 # Execute local artifact packaging test checking validation logic
 bash scripts/test_keystore_generation.sh
 ```
+
+## Related Enterprise Projects
+
+Part of the integrated enterprise automation framework. Complementary projects:
+
+- **[hybrid-governance-automation](https://github.com/sjamal/hybrid-governance-automation)** — Orchestration and compliance gating
+- **[enterprise-hybrid-pipelines](https://github.com/sjamal/enterprise-hybrid-pipelines)** — Post-provisioning automation
+- **[enterprise-network-mesh](https://github.com/sjamal/enterprise-network-mesh)** — Network architecture and boundary verification
+- **[ansible](https://github.com/sjamal/ansible)** — Infrastructure provisioning
+- **[bash](https://github.com/sjamal/bash)** — Certificate generation and utility scripts
